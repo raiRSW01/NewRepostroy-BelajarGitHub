@@ -1,0 +1,46 @@
+.AmbatronNisaaaawarrRaajjaal{
+    background: #f771e3;
+    color: #ffffff;
+    text-align: center;
+}
+.MainStyle{
+    background-color: #19f609;
+    color: #000000;
+    padding: 5px;
+}
+.Container1{
+    gap: 10px; display: flex; padding: 5px; margin: 10px;
+    justify-content: space-evenly; align-items: center;
+    border-radius: 10px 20px 10px 20px; border: 2px solid #f3bee7;
+}
+.Box1{
+    padding: 5px; margin: 10px; border: #000000 2px solid; border-radius: 10px 20px 10px 20px;
+    background-color: #f771e3; color: #ffffff; text-align: end;
+}
+.Animation2{
+    animation: ToAnimation2 linear 2s Infinite;
+}
+.Animation3{
+    animation: ToAnimation3 4s 4;
+}
+@keyframes ToAnimation1{
+    0%{
+        transform: translatey(-1000px);
+    } 100%{
+        transform: translatey(0);
+    }
+}
+@keyframes ToAnimation2{
+    0%{
+        color: #ffffff;
+    } 100%{
+        color: #000000;
+    }
+}
+@keyframes ToAnimation3{
+    0%{
+        transform: scale(5) translate(100px, 100px)
+    }100%{
+        transform: scale(0.1) translate(-100px, -100px)
+    }
+}
